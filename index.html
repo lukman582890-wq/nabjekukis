@@ -3,355 +3,246 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nabje Kukis — Kue Kering Rumahan & Jajanan Tradisional</title>
-  <meta name="description" content="Nabje Kukis menghadirkan kue kering Lebaran buatan rumah yang hangat serta jajanan tradisional legit seperti dodol, wajik, dan getuk. Pesan mudah via WhatsApp." />
+  <title>Nabje Kukis — Homemade Bakery &amp; Hampers Idul Fitri</title>
+  <meta name="description" content="Katalog resmi Nabje Kukis. Kue Kering toples 600ml (Nastar, Kastengel Cokelat, Choco Almond, Sagu Keju, Thumbprint), jajanan tradisional, dan Paket Hampers Lebaran via WhatsApp." />
   <link rel="icon" type="image/jpeg" href="assets/logo.jpg" />
 
-  <!-- Google Fonts: Cormorant Garamond (Vintage Bakery Serif) & Plus Jakarta Sans (Clean Modern) -->
+  <!-- Google Fonts: Cormorant Garamond & Plus Jakarta Sans -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-  <!-- Top Announcement Banner -->
-  <div class="top-banner">
-    <div class="container top-banner-inner">
-      <span class="banner-ornament" aria-hidden="true">✦</span>
-      <span>Pre-Order Kue Kering Lebaran — Kemasan Baru Toples Tabung 350gr Tutup Rose Gold (Isi Full &amp; Cantik)</span>
-      <span class="banner-ornament" aria-hidden="true">✦</span>
+  <!-- 1. Top Announcement Bar (Odeholm Style) -->
+  <div class="top-announcement">
+    <div class="container announcement-inner">
+      <span>✨ Pre-Order Kue Kering Lebaran — Kemasan Baru <strong>Toples Tabung 600ml Tutup Rose Gold</strong> &amp; Paket Hampers Eksklusif</span>
+      <a href="https://wa.me/6287787590666" target="_blank" rel="noopener" class="announcement-link">Chat WA: 0877-8759-0666 →</a>
     </div>
   </div>
 
-  <!-- Header & Navigation -->
-  <header class="site-header" id="top">
-    <div class="container header-inner">
-      <a href="#top" class="brand-link" aria-label="Beranda Nabje Kukis">
-        <img src="assets/logo.jpg" alt="Logo Nabje Kukis" class="brand-logo" />
-        <div class="brand-text">
-          <span class="brand-name">Nabje Kukis</span>
-          <span class="brand-sub">Homemade &amp; Traditional Treats</span>
+  <!-- 2. Sticky Modern Header -->
+  <header class="odeholm-header" id="top">
+    <div class="container header-container">
+      <a href="#top" class="header-brand" aria-label="Nabje Kukis Beranda">
+        <img src="assets/logo.jpg" alt="Logo Nabje Kukis" class="header-logo" />
+        <div class="header-brand-title">
+          <span class="brand-heading">Nabje Kukis</span>
+          <span class="brand-tagline">Bakery &amp; Hampers</span>
         </div>
       </a>
 
-      <nav class="main-nav" id="mainNav" aria-label="Navigasi Utama">
-        <a href="#katalog" class="nav-link">Katalog Kue</a>
-        <a href="#hampers" class="nav-link">Paket Hampers</a>
-        <a href="#cara-pesan" class="nav-link">Cara Pesan</a>
-        <a href="#tentang" class="nav-link">Tentang Kami</a>
+      <nav class="header-nav" id="headerNav" aria-label="Navigasi Menu">
+        <a href="#featured" class="nav-item">Sorotan</a>
+        <a href="#katalog-kue" class="nav-item">Kue Kering (600ml)</a>
+        <a href="#hampers-lebaran" class="nav-item">Paket Hampers</a>
+        <a href="#tradisional" class="nav-item">Jajanan Tradisional</a>
+        <a href="#about-story" class="nav-item">Tentang Kami</a>
       </nav>
 
-      <div class="header-actions">
-        <button type="button" class="cart-trigger-btn" id="openCartBtn" aria-label="Buka Keranjang Pesanan">
-          <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
-            <line x1="3" y1="6" x2="21" y2="6"></line>
-            <path d="M16 10a4 4 0 0 1-8 0"></path>
-          </svg>
-          <span class="cart-btn-label">Keranjang</span>
-          <span class="cart-badge" id="cartCountBadge">0</span>
+      <div class="header-right">
+        <a href="https://www.instagram.com/nabje.kukiss/" target="_blank" rel="noopener" class="ig-btn" title="Instagram @nabje.kukiss">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-svg"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+        </a>
+        <button type="button" class="header-cart-btn" id="openCartBtn" aria-label="Buka Keranjang">
+          <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+          <span class="cart-label-text">Keranjang</span>
+          <span class="cart-count-pill" id="cartCountBadge">0</span>
         </button>
-
-        <button type="button" class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Buka Menu">
-          <span></span>
-          <span></span>
-          <span></span>
+        <button type="button" class="mobile-toggle-btn" id="mobileMenuBtn" aria-label="Buka Menu Navigasi">
+          <span></span><span></span><span></span>
         </button>
       </div>
     </div>
   </header>
 
-  <!-- Hero Section -->
-  <section class="hero-section">
-    <!-- Subtle Ketupat & Crescent Ornaments -->
-    <div class="hero-ornament hero-ornament-left" aria-hidden="true">
-      <svg viewBox="0 0 120 180" fill="none">
-        <line x1="60" y1="0" x2="60" y2="45" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3"/>
-        <!-- Subtle Ketupat Line Art -->
-        <polygon points="60,45 90,75 60,105 30,75" stroke="currentColor" stroke-width="1.5" fill="none"/>
-        <line x1="45" y1="60" x2="75" y2="90" stroke="currentColor" stroke-width="1"/>
-        <line x1="75" y1="60" x2="45" y2="90" stroke="currentColor" stroke-width="1"/>
-        <path d="M53,105 L45,130 M67,105 L75,130" stroke="currentColor" stroke-width="1.5"/>
-      </svg>
-    </div>
-    <div class="hero-ornament hero-ornament-right" aria-hidden="true">
-      <svg viewBox="0 0 120 180" fill="none">
-        <line x1="60" y1="0" x2="60" y2="40" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3"/>
-        <!-- Subtle Crescent & Star Line Art -->
-        <path d="M70,55 A24,24 0 1,0 70,103 A18,18 0 1,1 70,55 Z" stroke="currentColor" stroke-width="1.5" fill="none"/>
-        <circle cx="80" cy="78" r="2.5" fill="currentColor"/>
-      </svg>
-    </div>
-
-    <div class="container hero-grid">
-      <div class="hero-content">
-        <div class="hero-pill">
-          <span class="pill-dot"></span>
-          Resep Rumahan Autentik &amp; Bahan Berkualitas
+  <!-- 3. Spotlight Hero Showcase (Odeholm Style Big Featured Release) -->
+  <section class="spotlight-hero" id="featured">
+    <div class="container">
+      <div class="spotlight-card">
+        <div class="spotlight-media">
+          <img src="assets/products/nastar-klasik.jpg" alt="Nastar Klasik Lumer Toples 600ml Tutup Rose Gold" class="spotlight-img" />
+          <span class="spotlight-badge">Signature Release 2026</span>
         </div>
-        <h1 class="hero-title">
-          Manisnya Kue Rumahan &amp; Legitnya <span class="text-highlight">Jajanan Tradisional</span>
-        </h1>
-        <p class="hero-subtitle">
-          Dari kue kering klasik yang lumer di mulut hingga dodol, wajik, dan getuk yang legit. <strong>Nabje Kukis</strong> siap menemani momen silaturahmi, Lebaran, maupun camilan hangat keluarga setiap hari.
-        </p>
-
-        <div class="hero-cta-group">
-          <a href="#katalog" class="btn btn-primary">
-            Lihat Katalog &amp; Pilih Kue
-          </a>
-          <a href="https://wa.me/6287787590666?text=Halo%20Nabje%20Kukis%2C%20saya%20ingin%20tanya%20dan%20pesan%20kue." target="_blank" rel="noopener" class="btn btn-whatsapp">
-            <svg class="icon-svg" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824zm-3.423-14.416c-6.627 0-12 5.373-12 12 0 2.126.556 4.124 1.529 5.856l-1.529 5.584 5.718-1.5c1.682.912 3.609 1.432 5.657 1.432 6.627 0 12-5.373 12-12s-5.373-12-12-12z"/>
-            </svg>
-            Pesan via WhatsApp
-          </a>
-        </div>
-
-        <div class="hero-trust-badges">
-          <div class="trust-item">
-            <span class="trust-icon">🍪</span>
-            <div>
-              <strong>Resep Rumahan</strong>
-              <span>Mentega &amp; bahan pilihan</span>
+        <div class="spotlight-content">
+          <div class="spotlight-kicker">Kemasan Baru • Toples Tabung 600ml</div>
+          <h1 class="spotlight-title">Nastar Klasik Lumer &amp; Kue Kering Pilihan</h1>
+          <blockquote class="spotlight-quote">
+            “Adonan lembut beraroma butter dengan isian selai nanas asli masak sendiri. Nanas adalah koentji!”
+          </blockquote>
+          <div class="spotlight-price-row">
+            <div class="spotlight-price-item">
+              <span class="price-type">Toples Tabung 600ml</span>
+              <strong class="price-main">Rp 90.000</strong>
             </div>
+            <span class="spec-pill">Tutup Aluminium Rose Gold</span>
           </div>
-          <div class="trust-item">
-            <span class="trust-icon">🌿</span>
-            <div>
-              <strong>Tanpa Pengawet</strong>
-              <span>Dibuat segar sesuai pesanan</span>
-            </div>
-          </div>
-          <div class="trust-item">
-            <span class="trust-icon">🎁</span>
-            <div>
-              <strong>Siap Hampers</strong>
-              <span>Kemasan rapi &amp; manis</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="hero-Showcase">
-        <div class="logo-medallion-card">
-          <div class="medallion-badge">Homemade Goodness</div>
-          <img src="assets/logo.jpg" alt="Nabje Kukis Artisan Bakery Emblem" class="hero-logo-img" />
-          <div class="medallion-caption">
-            <p>“Harum mentega panggang &amp; manis legitnya cita rasa nusantara dalam setiap sajian.”</p>
+          <div class="spotlight-actions">
+            <button type="button" class="btn btn-primary" data-add-product="nastar-klasik">+ Tambah ke Keranjang</button>
+            <button type="button" class="btn btn-whatsapp" data-direct-product="nastar-klasik">Pesan via WA</button>
+            <a href="#katalog-kue" class="btn btn-outline">Lihat Semua Menu ↓</a>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Kategori Highlight Cards -->
-  <section class="categories-overview">
+  <!-- 4. Featured Hampers Spotlight Section (Odeholm Style Featured Box) -->
+  <section class="section-container" id="hampers-lebaran">
     <div class="container">
-      <div class="category-banners-grid">
-        <div class="category-banner-card cat-cookies" data-filter-jump="kue-kering">
-          <div class="cat-banner-icon" aria-hidden="true">
-            <svg viewBox="0 0 64 64" fill="none">
-              <circle cx="32" cy="34" r="20" fill="#F3C677" stroke="#6B3E26" stroke-width="2.5"/>
-              <ellipse cx="32" cy="24" rx="9" ry="5.5" fill="#C87D4B" stroke="#6B3E26" stroke-width="2"/>
-              <path d="M32 16 L32 21 M29 18 L35 18" stroke="#6B3E26" stroke-width="2" stroke-linecap="round"/>
-              <path d="M22 36 Q32 42 42 36" stroke="#C87D4B" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-          </div>
-          <div class="cat-banner-text">
-            <span class="cat-tag">Koleksi Favorit</span>
-            <h3>Kue Kering Lebaran &amp; Harian</h3>
-            <p>Nastar klasik lumer, kastengel keju gurih, putri salju pandan, sagu keju, dan kukis cokelat renyah.</p>
-            <span class="cat-link">Lihat Kue Kering →</span>
-          </div>
-        </div>
-
-        <div class="category-banner-card cat-traditional" data-filter-jump="jajanan-tradisional">
-          <div class="cat-banner-icon" aria-hidden="true">
-            <svg viewBox="0 0 64 64" fill="none">
-              <polygon points="32,14 52,28 32,42 12,28" fill="#B5653B" stroke="#6B3E26" stroke-width="2.5"/>
-              <polygon points="12,28 32,42 32,52 12,38" fill="#8D4925" stroke="#6B3E26" stroke-width="2.5"/>
-              <polygon points="52,28 32,42 32,52 52,38" fill="#A3B899" stroke="#6B3E26" stroke-width="2.5"/>
-            </svg>
-          </div>
-          <div class="cat-banner-text">
-            <span class="cat-tag">Warisan Nusantara</span>
-            <h3>Jajanan Tradisional Legit</h3>
-            <p>Dodol rumahan lembut, wajik ketan gula aren harum pandan, dan getuk manis untuk acara maupun hantaran.</p>
-            <span class="cat-link">Lihat Jajanan Tradisional →</span>
-          </div>
-        </div>
+      <div class="section-title-wrap">
+        <span class="section-subheading">Koleksi Idul Fitri</span>
+        <h2 class="section-main-heading">Paket Hampers Lebaran</h2>
+        <p class="section-intro">Kemasan box eksklusif dengan pita mewah &amp; kartu ucapan. Pilihan isi kue toples 600ml disesuaikan dengan keinginanmu.</p>
       </div>
+
+      <div class="hampers-split-grid" id="hampersGrid"></div>
     </div>
   </section>
 
-  <!-- Katalog Produk Section -->
-  <section class="catalog-section" id="katalog">
+  <!-- 5. Product Grid Showcase: Kue Kering (Toples 600ml) -->
+  <section class="section-container bg-warm-tint" id="katalog-kue">
     <div class="container">
-      <div class="section-header">
-        <span class="section-eyebrow">Katalog Produk</span>
-        <h2 class="section-title">Pilihan Sajian Manis Nabje Kukis</h2>
-        <p class="section-desc">
-          Pilih ukuran toples atau kemasan yang diinginkan, lalu masukkan ke keranjang atau pesan langsung via WhatsApp.
-        </p>
+      <div class="section-title-wrap">
+        <span class="section-subheading">Katalog Produk</span>
+        <h2 class="section-main-heading">Kue Kering Toples 600ml</h2>
+        <p class="section-intro">Semua varian dikemas rapi dalam toples tabung bening 600ml dengan tutup ulir aluminium warna <em>rose gold</em> mewah.</p>
       </div>
 
-      <!-- Filter Tabs -->
-      <div class="filter-tabs" role="tablist" aria-label="Filter Kategori Produk">
-        <button type="button" class="filter-tab active" data-category="semua" role="tab" aria-selected="true">
-          Semua Sajian
-        </button>
-        <button type="button" class="filter-tab" data-category="kue-kering" role="tab" aria-selected="false">
-          🍪 Kue Kering Lebaran
-        </button>
-        <button type="button" class="filter-tab" data-category="jajanan-tradisional" role="tab" aria-selected="false">
-          🌿 Jajanan Tradisional (Dodol, Wajik, Getuk)
-        </button>
+      <!-- Filter Bar -->
+      <div class="catalog-filter-bar">
+        <button type="button" class="cat-filter-btn active" data-filter="all">Semua Kue Kering</button>
+        <button type="button" class="cat-filter-btn" data-filter="cokelat">Varian Cokelat</button>
+        <button type="button" class="cat-filter-btn" data-filter="keju">Varian Keju &amp; Gurih</button>
+        <button type="button" class="cat-filter-btn" data-filter="nastar">Varian Nastar</button>
       </div>
 
-      <!-- Product Grid (Rendered Dynamically from script.js) -->
-      <div class="products-grid" id="productsGrid"></div>
+      <div class="odeholm-product-grid" id="cookiesGrid"></div>
     </div>
   </section>
 
-  <!-- Paket Hampers Section -->
-  <section class="hampers-section" id="hampers">
+  <!-- 6. Traditional Indonesian Treats Section -->
+  <section class="section-container" id="tradisional">
     <div class="container">
-      <div class="section-header">
-        <span class="section-eyebrow">Bingkisan Silaturahmi</span>
-        <h2 class="section-title">Paket Hampers Istimewa</h2>
-        <p class="section-desc">
-          Kirimkan kehangatan untuk orang tua, sahabat, dan kolega. Setiap paket hampers sudah termasuk kemasan cantik, pita satin/sage, dan kartu ucapan personal.
-        </p>
+      <div class="section-title-wrap">
+        <span class="section-subheading">Warisan Nusantara</span>
+        <h2 class="section-main-heading">Dodol, Wajik &amp; Getuk</h2>
+        <p class="section-intro">Olahan tradisional bercita rasa autentik untuk acara keluarga, syukuran, maupun buah tangan hangat.</p>
       </div>
 
-      <div class="hampers-grid" id="hampersGrid"></div>
+      <div class="odeholm-product-grid" id="traditionalGrid"></div>
     </div>
   </section>
 
-  <!-- Cara Pesan & Tentang Nabje Kukis -->
-  <section class="info-section" id="cara-pesan">
+  <!-- 7. About Nabje Kukis (Odeholm Style "About Artist/Creator" Feature) -->
+  <section class="section-container" id="about-story">
     <div class="container">
-      <div class="section-header">
-        <span class="section-eyebrow">Mudah &amp; Praktis</span>
-        <h2 class="section-title">Cara Memesan di Nabje Kukis</h2>
-        <p class="section-desc">
-          Tidak perlu daftar akun. Pilih kue favoritmu dan pesanan langsung terhubung ke WhatsApp kami.
-        </p>
-      </div>
-
-      <div class="steps-grid">
-        <div class="step-card">
-          <div class="step-number">1</div>
-          <h3>Pilih Kue &amp; Ukuran</h3>
-          <p>Pilih varian kue kering, dodol, wajik, getuk, atau paket hampers beserta ukuran toples/kemasannya.</p>
+      <div class="about-feature-box">
+        <div class="about-logo-frame">
+          <img src="assets/logo.jpg" alt="Logo Vintage Nabje Kukis" class="about-logo-img" />
+          <div class="about-owner-badge">Dapur Rumahan Autentik</div>
         </div>
-        <div class="step-card">
-          <div class="step-number">2</div>
-          <h3>Masukkan ke Keranjang</h3>
-          <p>Kamu bisa menggabungkan beberapa jenis kue sekaligus di Keranjang, dan total harga akan dihitung otomatis.</p>
-        </div>
-        <div class="step-card">
-          <div class="step-number">3</div>
-          <h3>Kirim ke WhatsApp</h3>
-          <p>Klik tombol <strong>Pesan via WhatsApp</strong>. Rincian pesananmu otomatis tertulis rapi ke nomor <strong>0877-8759-0666</strong>.</p>
-        </div>
-        <div class="step-card">
-          <div class="step-number">4</div>
-          <h3>Diproses Fresh &amp; Dikirim</h3>
-          <p>Setelah konfirmasi jadwal &amp; pembayaran, kue disiapkan <em>fresh</em> dari dapur kami dan siap dikirim ke alamatmu.</p>
-        </div>
-      </div>
-
-      <!-- Tentang Nabje Kukis -->
-      <div class="about-card" id="tentang">
-        <div class="about-logo-col">
-          <img src="assets/logo.jpg" alt="Logo Nabje Kukis" class="about-logo" />
-        </div>
-        <div class="about-text-col">
-          <span class="section-eyebrow">Tentang Kami</span>
-          <h2>Cerita Hangat dari Dapur Nabje Kukis</h2>
+        <div class="about-story-text">
+          <span class="section-subheading">Cerita Kami</span>
+          <h2 class="about-heading">Hangatnya Resep Rumahan di Setiap Toples Nabje Kukis</h2>
           <p>
-            <strong>Nabje Kukis</strong> lahir dari kecintaan pada aroma kue panggang rumahan dan kekayaan jajanan tradisional Indonesia. Kami percaya bahwa sajian yang berkesan tidak harus terasa kaku—melainkan hangat, tulus, dan mengingatkan kita pada suasana berkumpul bersama keluarga di rumah.
+            <strong>Nabje Kukis</strong> berawal dari kecintaan memanggang kue kering beraroma mentega harum dan merawat tradisi manis nusantara. Kami menggunakan bahan-bahan pilihan tanpa pengawet buatan, mulai dari selai nanas yang dimasak perlahan hingga taburan keju dan cokelat berkualitas.
           </p>
           <p>
-            Mulai dari nastar dengan selai nanas masak sendiri, kukis renyah untuk Hari Raya, hingga <strong>dodol, wajik ketan, dan getuk</strong> yang legit untuk acara syukuran maupun buah tangan sepanjang tahun—semuanya kami olah dari bahan pilihan yang halal dan tanpa bahan pengawet.
+            Menyambut momen Idul Fitri dan hari-hari istimewa, kami menghadirkan kemasan toples tabung 600ml bertutup <em>rose gold</em> yang elegan serta pilihan hampers cantik yang siap dikirimkan kepada orang-orang terkasih.
           </p>
-          <div class="about-highlights">
-            <span>✓ Halal &amp; Higienis</span>
-            <span>✓ Selai &amp; Adonan Homemade</span>
-            <span>✓ Menerima Pesanan Acara &amp; Hantaran</span>
+          <div class="about-points-row">
+            <div class="about-point">✦ Bahan Halal &amp; Higienis</div>
+            <div class="about-point">✦ Selai Nanas Asli Masak Sendiri</div>
+            <div class="about-point">✦ Pre-Order Fresh dari Oven</div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="site-footer">
+  <!-- 8. Direct WhatsApp Callout Banner (Odeholm "Stay in touch" Style) -->
+  <section class="wa-callout-banner">
+    <div class="container wa-callout-inner">
+      <div class="callout-text-block">
+        <span class="callout-eyebrow">Pemesanan &amp; Konsultasi Hampers</span>
+        <h2 class="callout-title">Pesan Lebih Cepat Langsung via WhatsApp</h2>
+        <p class="callout-desc">Mau pesan kue kering toples 600ml, paket hampers Lebaran, atau sajian tradisional untuk acara? Tim Nabje Kukis siap membantu.</p>
+      </div>
+      <div class="callout-cta-block">
+        <a href="https://wa.me/6287787590666?text=Halo%20Nabje%20Kukis%2C%20saya%20ingin%20tanya%20dan%20pesan%20kue%20kering%20toples%20600ml%20dan%20paket%20hampers." target="_blank" rel="noopener" class="btn btn-whatsapp-lg">
+          <svg class="icon-svg-lg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824zm-3.423-14.416c-6.627 0-12 5.373-12 12 0 2.126.556 4.124 1.529 5.856l-1.529 5.584 5.718-1.5c1.682.912 3.609 1.432 5.657 1.432 6.627 0 12-5.373 12-12s-5.373-12-12-12z"/></svg>
+          Chat WhatsApp: 0877-8759-0666
+        </a>
+        <span class="callout-note">Pemesanan Paket Hampers Dilayani via WhatsApp</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. Odeholm Style Multi-Column Footer & Subfooter -->
+  <footer class="odeholm-footer">
     <div class="container footer-grid">
-      <div class="footer-brand">
-        <div class="footer-brand-row">
-          <img src="assets/logo.jpg" alt="Nabje Kukis" class="footer-logo" />
-          <div>
-            <h3>Nabje Kukis</h3>
-            <p class="footer-tagline">Kue Kering Rumahan &amp; Jajanan Tradisional</p>
-          </div>
+      <div class="footer-col brand-col">
+        <div class="footer-logo-row">
+          <img src="assets/logo.jpg" alt="Nabje Kukis Logo" class="footer-logo" />
+          <span class="footer-brand-name">Nabje Kukis</span>
         </div>
-        <p class="footer-desc">
-          Menghadirkan kue kering Lebaran, camilan keluarga, serta jajanan tradisional dodol, wajik, dan getuk dengan cita rasa rumahan yang manis dan hangat.
-        </p>
+        <p class="footer-text">Kue Kering Homemade Toples Tabung 600ml &amp; Jajanan Tradisional Indonesia. Dibuat hangat dan penuh ketulusan.</p>
+        <div class="footer-social-row">
+          <a href="https://www.instagram.com/nabje.kukiss/" target="_blank" rel="noopener" class="footer-social-link">Instagram: @nabje.kukiss</a>
+          <a href="https://wa.me/6287787590666" target="_blank" rel="noopener" class="footer-social-link">WhatsApp: 0877-8759-0666</a>
+        </div>
       </div>
 
-      <div class="footer-links">
-        <h4>Menu Navigasi</h4>
-        <ul>
-          <li><a href="#katalog">Katalog Kue Kering</a></li>
-          <li><a href="#katalog" data-filter-jump="jajanan-tradisional">Dodol, Wajik &amp; Getuk</a></li>
-          <li><a href="#hampers">Paket Hampers</a></li>
-          <li><a href="#cara-pesan">Cara Pemesanan</a></li>
-          <li><a href="#tentang">Tentang Nabje Kukis</a></li>
+      <div class="footer-col">
+        <h4 class="footer-heading">Menu Kue (600ml)</h4>
+        <ul class="footer-menu">
+          <li><a href="#katalog-kue">Nastar Klasik Lumer (90rb)</a></li>
+          <li><a href="#katalog-kue">Kastengel Cokelat (100rb)</a></li>
+          <li><a href="#katalog-kue">Thumbprint Choco (80rb)</a></li>
+          <li><a href="#katalog-kue">Choco Almond (75rb)</a></li>
+          <li><a href="#katalog-kue">Sagu Keju Susu (75rb)</a></li>
+          <li><a href="#katalog-kue">Kastengel Keju Gurih (100rb)</a></li>
         </ul>
       </div>
 
-      <div class="footer-contact">
-        <h4>Hubungi &amp; Pesan</h4>
-        <p><strong>WhatsApp Pemesanan:</strong><br/>
-          <a href="https://wa.me/6287787590666" target="_blank" rel="noopener" class="footer-wa-link">0877-8759-0666</a>
-        </p>
-        <p><strong>Jam Layanan Chat:</strong><br/>Setiap Hari, 08.00 – 20.00 WIB</p>
-        <div class="footer-socials">
-          <a href="https://wa.me/6287787590666" target="_blank" rel="noopener" class="social-pill">WhatsApp</a>
-          <a href="https://www.instagram.com/nabje.kukiss/" target="_blank" rel="noopener" class="social-pill">Instagram @nabje.kukiss</a>
-        </div>
+      <div class="footer-col">
+        <h4 class="footer-heading">Hampers &amp; Acara</h4>
+        <ul class="footer-menu">
+          <li><a href="#hampers-lebaran">Hampers Eid Emerald Floral</a></li>
+          <li><a href="#hampers-lebaran">Hampers Eid Sage Bloom</a></li>
+          <li><a href="#tradisional">Dodol Rumahan Legit</a></li>
+          <li><a href="#tradisional">Wajik Ketan Gula Aren</a></li>
+          <li><a href="#tradisional">Getuk Manis</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Informasi Pre-Order</h4>
+        <p class="footer-text">Setiap hari pkl 08.00 – 20.00 WIB.<br/>Pengiriman via GoSend, GrabExpress, Ekspedisi, maupun Ambil Sendiri.</p>
+        <a href="https://wa.me/6287787590666" target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm footer-wa-btn">Hubungi Kami Sekarang</a>
       </div>
     </div>
 
-    <div class="container footer-bottom">
-      <p>&copy; <span id="currentYear"></span> <strong>Nabje Kukis</strong>. Dibuat dengan hangat untuk pecinta kue rumahan &amp; jajanan tradisional.</p>
+    <!-- Subfooter -->
+    <div class="subfooter">
+      <div class="container subfooter-inner">
+        <span>&copy; <span id="currentYear"></span> <strong>Nabje Kukis</strong>. Hak cipta dilindungi.</span>
+        <span>Hosted on Cloudflare Pages • All rights reserved</span>
+      </div>
     </div>
   </footer>
-
-  <!-- Floating Bottom Cart Bar (Appears when Cart has items) -->
-  <div class="floating-cart-bar" id="floatingCartBar" hidden>
-    <div class="floating-cart-info">
-      <span class="floating-cart-count" id="floatingCartCount">0 item</span>
-      <strong class="floating-cart-total" id="floatingCartTotal">Rp 0</strong>
-    </div>
-    <button type="button" class="btn btn-primary btn-sm" id="floatingOpenCartBtn">
-      Lihat Keranjang &amp; Pesan WA →
-    </button>
-  </div>
 
   <!-- Slide-Over Shopping Cart Modal -->
   <div class="cart-backdrop" id="cartBackdrop" hidden></div>
   <aside class="cart-drawer" id="cartDrawer" aria-labelledby="cartDrawerTitle" aria-hidden="true">
     <div class="cart-drawer-header">
       <div>
-        <h3 id="cartDrawerTitle">Keranjang Pesanan</h3>
-        <p class="cart-drawer-sub">Rincian kue akan dikirim otomatis ke WhatsApp</p>
+        <h3 id="cartDrawerTitle">Keranjang Belanja</h3>
+        <p class="cart-drawer-sub">Pesanan kue akan dikirim otomatis ke WhatsApp</p>
       </div>
       <button type="button" class="cart-close-btn" id="closeCartBtn" aria-label="Tutup Keranjang">✕</button>
     </div>
@@ -376,7 +267,7 @@
         </div>
         <div class="form-group">
           <label for="customerNote">Catatan Pesanan / Tanggal Kirim</label>
-          <textarea id="customerNote" rows="2" placeholder="Contoh: Untuk dikirim hari Jumat, kartu hampers ditulis..."></textarea>
+          <textarea id="customerNote" rows="2" placeholder="Contoh: Dikirim tanggal 20, kartu ucapan to: ..."></textarea>
         </div>
       </div>
     </div>
@@ -387,9 +278,7 @@
         <strong id="cartGrandTotal">Rp 0</strong>
       </div>
       <button type="button" class="btn btn-whatsapp btn-block" id="checkoutWaBtn">
-        <svg class="icon-svg" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824zm-3.423-14.416c-6.627 0-12 5.373-12 12 0 2.126.556 4.124 1.529 5.856l-1.529 5.584 5.718-1.5c1.682.912 3.609 1.432 5.657 1.432 6.627 0 12-5.373 12-12s-5.373-12-12-12z"/>
-        </svg>
+        <svg class="icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824zm-3.423-14.416c-6.627 0-12 5.373-12 12 0 2.126.556 4.124 1.529 5.856l-1.529 5.584 5.718-1.5c1.682.912 3.609 1.432 5.657 1.432 6.627 0 12-5.373 12-12s-5.373-12-12-12z"/></svg>
         Kirim Pesanan ke WhatsApp
       </button>
     </div>
