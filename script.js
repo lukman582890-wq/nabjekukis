@@ -49,6 +49,16 @@ const COOKIE_PRODUCTS = [
     desc: "Paduan cokelat mantap dengan taburan kacang almond renyah berkualitas tinggi di setiap gigitan."
   },
   {
+    id: "semprit-cokelat",
+    name: "Semprit Cokelat",
+    category: "cokelat",
+    badge: "Klasik Renyah",
+    price: 70000,
+    size: "Toples Tabung 600ml",
+    image: "assets/products/semprit-cokelat.jpg",
+    desc: "Kue semprit bunga cokelat renyah dengan rasa cokelat pekat khas Nabje Kukis berhias chocochip lezat."
+  },
+  {
     id: "sagu-keju",
     name: "Sagu Keju Susu",
     category: "keju",
