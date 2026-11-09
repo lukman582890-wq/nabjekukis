@@ -26,7 +26,7 @@ const COOKIE_PRODUCTS = [
     price: 90000,
     size: "Toples Tabung 600ml",
     image: "assets/products/nastar-klasik.jpg",
-    desc: "Adonan lembut beraroma butter dengan isian selai nanas asli masak sendiri. Nanas adalah koentji!"
+    desc: "Adonan lembut beraroma butter istimewa dengan isian selai nanas asli masak sendiri yang manis legit lumer di lidah."
   },
   {
     id: "kastengel-cokelat",
