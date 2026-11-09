@@ -39,16 +39,6 @@ const COOKIE_PRODUCTS = [
     desc: "Inovasi gurih-manis kastengel cokelat khas Nabje Kukis yang renyah dan cocok untuk teman ngopi."
   },
   {
-    id: "thumbprint-choco",
-    name: "Thumbprint Choco",
-    category: "cokelat",
-    badge: "Favorit Cokelat",
-    price: 80000,
-    size: "Toples Tabung 600ml",
-    image: "assets/products/thumbprint-choco.jpg",
-    desc: "Kukis renyah dengan isian cokelat lumer tebal di tengah yang memanjakan lidah para pecinta cokelat."
-  },
-  {
     id: "choco-almond",
     name: "Choco Almond Kukis",
     category: "cokelat",
@@ -69,16 +59,6 @@ const COOKIE_PRODUCTS = [
     desc: "Tekstur renyah lembut yang langsung lumer di lidah berpadu gurihnya keju dan santan segar."
   },
   {
-    id: "kastengel-keju",
-    name: "Kastengel Keju Gurih",
-    category: "keju",
-    badge: "Keju Melimpah",
-    price: 100000,
-    size: "Toples Tabung 600ml",
-    image: "assets/products/kastengel-keju.jpg",
-    desc: "Kue kering keju panggang super gurih dan renyah dengan parutan keju edam melimpah."
-  },
-  {
     id: "nastar-gulung",
     name: "Kue Nastar Gulung",
     category: "nastar",
@@ -97,16 +77,6 @@ const COOKIE_PRODUCTS = [
     size: "Toples Tabung 600ml",
     image: "assets/products/putri-salju.jpg",
     desc: "Kukis putri salju lumer dengan taburan gula halus dingin khas Nabje Kukis yang manis dan lembut."
-  },
-  {
-    id: "thumbprint-strawberry",
-    name: "Thumbprint Strawberry",
-    category: "nastar",
-    badge: "Manis Segar",
-    price: 80000,
-    size: "Toples Tabung 600ml",
-    image: "assets/products/thumbprint-strawberry.jpg",
-    desc: "Kukis mentega renyah dengan lelehan selai strawberry segar manis di tengahnya. Sangat cantik di meja tamu."
   }
 ];
 
