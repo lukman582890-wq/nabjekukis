@@ -76,7 +76,7 @@ const PLACEHOLDER_SVGS = {
     </svg>`
 };
 
-// Data Produk (Harga & varian contoh yang siap di-update kapan saja)
+// Data Produk Resmi Nabje Kukis (Foto & varian diambil dari Instagram @nabje.kukiss)
 const PRODUCTS = [
   {
     id: "nastar-klasik",
@@ -87,10 +87,26 @@ const PRODUCTS = [
     badgeStyle: "badge-gold",
     theme: "theme-butter",
     iconKey: "nastar",
-    image: "", // Isi misal "assets/nastar.jpg" jika foto sudah ada
-    description: "Adonan lembut beraroma butter pilihan dengan isian selai nanas masak sendiri yang manis-segar dan lumer di mulut.",
+    image: "assets/products/nastar-klasik.jpg",
+    description: "Nastar gemuk lembut lumer di mulut dengan isian selai nanas masak sendiri yang asam-manis segar. Nanas adalah koentji!",
     sizes: [
-      { label: "Toples 250gr", price: 55000 },
+      { label: "Toples 350gr", price: 65000 },
+      { label: "Toples 500gr", price: 105000 }
+    ]
+  },
+  {
+    id: "nastar-gulung",
+    name: "Kue Nastar Gulung",
+    category: "kue-kering",
+    categoryLabel: "Kue Kering Lebaran",
+    badge: "Favorit",
+    badgeStyle: "badge-gold",
+    theme: "theme-butter",
+    iconKey: "nastar",
+    image: "assets/products/nastar-gulung.jpg",
+    description: "Kue nastar bentuk gulung cantik dengan kulit renyah-lembut dan selai nanas asli yang melimpah.",
+    sizes: [
+      { label: "Toples 350gr", price: 65000 },
       { label: "Toples 500gr", price: 105000 }
     ]
   },
@@ -99,63 +115,95 @@ const PRODUCTS = [
     name: "Kastengel Keju Gurih",
     category: "kue-kering",
     categoryLabel: "Kue Kering Lebaran",
-    badge: "Favorit",
+    badge: "Keju Melimpah",
     badgeStyle: "",
     theme: "theme-butter",
     iconKey: "kastengel",
-    image: "",
-    description: "Kue kering keju panggang yang renyah dan gurih dengan taburan keju parut melimpah di setiap gigitan.",
+    image: "assets/products/kastengel-keju.jpg",
+    description: "Kue kering keju panggang super gurih dan renyah dengan taburan keju parut melimpah di setiap gigitan.",
     sizes: [
-      { label: "Toples 250gr", price: 58000 },
-      { label: "Toples 500gr", price: 110000 }
+      { label: "Toples 350gr", price: 70000 },
+      { label: "Toples 500gr", price: 115000 }
     ]
   },
   {
-    id: "putri-salju-pandan",
-    name: "Putri Salju Klasik & Pandan",
+    id: "kastengel-cokelat",
+    name: "Kastengel Cokelat",
     category: "kue-kering",
     categoryLabel: "Kue Kering Lebaran",
-    badge: "Manis Lembut",
+    badge: "Varian Unik",
+    badgeStyle: "badge-sage",
+    theme: "theme-caramel",
+    iconKey: "chocoKukis",
+    image: "assets/products/kastengel-cokelat.jpg",
+    description: "Bosan sama kastengel biasa? Varian kastengel cokelat khas Nabje Kukis ini gurih-manis dan cocok banget ditemani kopi.",
+    sizes: [
+      { label: "Toples 350gr", price: 70000 },
+      { label: "Toples 500gr", price: 115000 }
+    ]
+  },
+  {
+    id: "putri-salju",
+    name: "Kue Putri Salju Lembut",
+    category: "kue-kering",
+    categoryLabel: "Kue Kering Lebaran",
+    badge: "Dingin Lembut",
     badgeStyle: "badge-sage",
     theme: "theme-sage",
     iconKey: "putriSalju",
-    image: "",
-    description: "Kukis bulan sabit yang lembut dengan balutan gula halus dingin yang manis dan aroma vanila/pandan.",
+    image: "assets/products/putri-salju.jpg",
+    description: "Kukis putri salju lumer dengan balutan gula halus dingin yang manis dan lembut, bikin kangen icip-icip lagi.",
     sizes: [
-      { label: "Toples 250gr", price: 50000 },
-      { label: "Toples 500gr", price: 95000 }
+      { label: "Toples 350gr", price: 60000 },
+      { label: "Toples 500gr", price: 100000 }
     ]
   },
   {
-    id: "sagu-keju-lumer",
-    name: "Sagu Keju Susu",
+    id: "semprit-cokelat",
+    name: "Kue Semprit Cokelat",
     category: "kue-kering",
     categoryLabel: "Kue Kering Lebaran",
-    badge: "",
-    badgeStyle: "",
-    theme: "theme-butter",
-    iconKey: "saguKeju",
-    image: "",
-    description: "Tekstur renyah yang langsung lumer di lidah dengan perpaduan santan, daun pandan, dan keju pilihan.",
-    sizes: [
-      { label: "Toples 250gr", price: 50000 },
-      { label: "Toples 500gr", price: 95000 }
-    ]
-  },
-  {
-    id: "choco-chip-kukis",
-    name: "Nabje Choco Chip Kukis",
-    category: "kue-kering",
-    categoryLabel: "Kue Kering Lebaran",
-    badge: "Signature",
+    badge: "Real Pict",
     badgeStyle: "badge-gold",
     theme: "theme-caramel",
     iconKey: "chocoKukis",
-    image: "",
-    description: "Kukis renyah khas Nabje Kukis dengan cokelat chip melimpah—disukai anak-anak hingga dewasa setiap saat.",
+    image: "assets/products/semprit-cokelat.jpg",
+    description: "Kue semprit mawar cokelat renyah dengan rasa cokelat mantap. What you see is what you get!",
     sizes: [
-      { label: "Toples 250gr", price: 48000 },
-      { label: "Toples 500gr", price: 90000 }
+      { label: "Toples 350gr", price: 55000 },
+      { label: "Toples 500gr", price: 95000 }
+    ]
+  },
+  {
+    id: "thumbprint-strawberry",
+    name: "Thumbprint Strawberry",
+    category: "kue-kering",
+    categoryLabel: "Kue Kering Lebaran",
+    badge: "Manis Segar",
+    badgeStyle: "badge-sage",
+    theme: "theme-butter",
+    iconKey: "nastar",
+    image: "assets/products/thumbprint-strawberry.jpg",
+    description: "Kue kering mentega renyah dengan lelehan selai strawberry manis-segar di tengahnya. Sangat cantik di toples!",
+    sizes: [
+      { label: "Toples 350gr", price: 60000 },
+      { label: "Toples 500gr", price: 100000 }
+    ]
+  },
+  {
+    id: "thumbprint-cokelat",
+    name: "Thumbprint Cokelat",
+    category: "kue-kering",
+    categoryLabel: "Kue Kering Lebaran",
+    badge: "Cokelat Tebal",
+    badgeStyle: "badge-gold",
+    theme: "theme-caramel",
+    iconKey: "chocoKukis",
+    image: "assets/products/thumbprint-cokelat.jpg",
+    description: "Kukis renyah dengan isian cokelat lumer tebal di tengah yang memanjakan lidah pecinta cokelat sejati.",
+    sizes: [
+      { label: "Toples 350gr", price: 60000 },
+      { label: "Toples 500gr", price: 100000 }
     ]
   },
   {
@@ -215,43 +263,46 @@ const HAMPERS = [
   {
     id: "hampers-silaturahmi",
     name: "Hampers Manis Silaturahmi",
-    subtitle: "Bingkisan manis dan ringkas untuk sahabat, tetangga, atau guru.",
+    subtitle: "Bingkisan cantik berisi 2 toples kue kering pilihan Nabje Kukis.",
     icon: "🎀",
+    image: "assets/products/hampers-box.jpg",
     featured: false,
-    ribbon: "",
-    price: 115000,
+    ribbon: "Favorit",
+    price: 135000,
     contents: [
-      "2 Toples Kue Kering Pilihan (Ukuran 250gr)",
-      "Kemasan Box Cantik Nuansa Krem & Sage",
+      "2 Toples Kue Kering Pilihan (Ukuran 350gr)",
+      "Kemasan Box Eksklusif Nabje Kukis",
       "Pita Satin & Kartu Ucapan Personal"
     ]
   },
   {
     id: "hampers-keluarga",
-    name: "Hampers Spesial Nabje Kukis",
-    subtitle: "Paket paling lengkap yang memadukan kue kering favorit & jajanan tradisional.",
+    name: "Hampers Spesial Lebaran",
+    subtitle: "Paket paling lengkap yang memadukan kue kering ukuran 500gr & jajanan manis.",
     icon: "🎁",
+    image: "assets/products/hampers-box.jpg",
     featured: true,
     ribbon: "Paling Diminati",
-    price: 265000,
+    price: 245000,
     contents: [
-      "2 Toples Kue Kering Premium (Ukuran 500gr)",
+      "2 Toples Kue Kering Premium (Ukuran 500gr Full)",
       "1 Kemasan Dodol Legit / Wajik Ketan Pilihan",
       "Hardbox Eksklusif + Pita Karamel & Kartu Ucapan"
     ]
   },
   {
-    id: "hampers-tradisional",
-    name: "Hampers Heritage Nusantara",
-    subtitle: "Hantaran hangat berisi kelezatan jajanan tradisional untuk orang tua & kerabat.",
-    icon: "🌿",
+    id: "hampers-toples",
+    name: "Paket Duo Toples Nabje",
+    subtitle: "Pilihan 2 toples ukuran 350gr/500gr full padat dalam kemasan bingkisan rapi.",
+    icon: "🍪",
+    image: "assets/products/toples-nabje.jpg",
     featured: false,
-    ribbon: "Khas Tradisional",
-    price: 145000,
+    ribbon: "Kemasan Rapi",
+    price: 130000,
     contents: [
-      "Dodol Legit Rumahan (500gr)",
-      "Wajik Ketan Gula Aren & Getuk Manis",
-      "Kemasan Besek Anyaman Pita Sage & Kartu Ucapan"
+      "2 Toples Kue Kering Bebas Pilih",
+      "Bentuk toples flat tidak cekung (isi full padat)",
+      "Pita Karamel + Kartu Ucapan Silaturahmi"
     ]
   }
 ];
@@ -393,11 +444,14 @@ function renderHampers() {
   grid.innerHTML = HAMPERS.map((h) => {
     const ribbonHtml = h.ribbon ? `<span class="hamper-ribbon">${h.ribbon}</span>` : "";
     const contentsHtml = h.contents.map((item) => `<li>${item}</li>`).join("");
+    const mediaHtml = h.image
+      ? `<div class="hamper-image-wrap"><img src="${h.image}" alt="${h.name}" class="hamper-photo" loading="lazy" /></div>`
+      : `<div class="hamper-icon-top" aria-hidden="true">${h.icon}</div>`;
 
     return `
       <article class="hamper-card ${h.featured ? "featured" : ""}">
         ${ribbonHtml}
-        <div class="hamper-icon-top" aria-hidden="true">${h.icon}</div>
+        ${mediaHtml}
         <h3 class="hamper-title">${h.name}</h3>
         <p class="hamper-subtitle">${h.subtitle}</p>
         <ul class="hamper-contents">
