@@ -88,10 +88,9 @@ const PRODUCTS = [
     theme: "theme-butter",
     iconKey: "nastar",
     image: "assets/products/nastar-klasik.jpg",
-    description: "Nastar gemuk lembut lumer di mulut dengan isian selai nanas masak sendiri yang asam-manis segar. Nanas adalah koentji!",
+    description: "Nastar gemuk lembut lumer di mulut dengan isian selai nanas masak sendiri yang asam-manis segar. Dikemas dalam toples tabung tutup rose gold 350gr.",
     sizes: [
-      { label: "Toples 350gr", price: 65000 },
-      { label: "Toples 500gr", price: 105000 }
+      { label: "Toples 350gr", price: 65000 }
     ]
   },
   {
@@ -104,10 +103,9 @@ const PRODUCTS = [
     theme: "theme-butter",
     iconKey: "nastar",
     image: "assets/products/nastar-gulung.jpg",
-    description: "Kue nastar bentuk gulung cantik dengan kulit renyah-lembut dan selai nanas asli yang melimpah.",
+    description: "Kue nastar bentuk gulung cantik dengan kulit renyah-lembut dan selai nanas asli yang melimpah. Kemasan toples tabung tutup rose gold 350gr.",
     sizes: [
-      { label: "Toples 350gr", price: 65000 },
-      { label: "Toples 500gr", price: 105000 }
+      { label: "Toples 350gr", price: 65000 }
     ]
   },
   {
@@ -120,10 +118,9 @@ const PRODUCTS = [
     theme: "theme-butter",
     iconKey: "kastengel",
     image: "assets/products/kastengel-keju.jpg",
-    description: "Kue kering keju panggang super gurih dan renyah dengan taburan keju parut melimpah di setiap gigitan.",
+    description: "Kue kering keju panggang super gurih dan renyah dengan taburan keju parut melimpah di setiap gigitan. Toples tabung tutup rose gold 350gr.",
     sizes: [
-      { label: "Toples 350gr", price: 70000 },
-      { label: "Toples 500gr", price: 115000 }
+      { label: "Toples 350gr", price: 70000 }
     ]
   },
   {
@@ -136,10 +133,9 @@ const PRODUCTS = [
     theme: "theme-caramel",
     iconKey: "chocoKukis",
     image: "assets/products/kastengel-cokelat.jpg",
-    description: "Bosan sama kastengel biasa? Varian kastengel cokelat khas Nabje Kukis ini gurih-manis dan cocok banget ditemani kopi.",
+    description: "Bosan sama kastengel biasa? Varian kastengel cokelat khas Nabje Kukis ini gurih-manis dan cocok banget ditemani kopi. Toples tabung tutup rose gold 350gr.",
     sizes: [
-      { label: "Toples 350gr", price: 70000 },
-      { label: "Toples 500gr", price: 115000 }
+      { label: "Toples 350gr", price: 70000 }
     ]
   },
   {
@@ -152,10 +148,9 @@ const PRODUCTS = [
     theme: "theme-sage",
     iconKey: "putriSalju",
     image: "assets/products/putri-salju.jpg",
-    description: "Kukis putri salju lumer dengan balutan gula halus dingin yang manis dan lembut, bikin kangen icip-icip lagi.",
+    description: "Kukis putri salju lumer dengan balutan gula halus dingin yang manis dan lembut, dikemas dalam toples tabung tutup rose gold 350gr.",
     sizes: [
-      { label: "Toples 350gr", price: 60000 },
-      { label: "Toples 500gr", price: 100000 }
+      { label: "Toples 350gr", price: 60000 }
     ]
   },
   {
@@ -168,10 +163,9 @@ const PRODUCTS = [
     theme: "theme-caramel",
     iconKey: "chocoKukis",
     image: "assets/products/semprit-cokelat.jpg",
-    description: "Kue semprit mawar cokelat renyah dengan rasa cokelat mantap. What you see is what you get!",
+    description: "Kue semprit mawar cokelat renyah dengan rasa cokelat mantap. Dikemas dalam toples tabung tutup rose gold 350gr.",
     sizes: [
-      { label: "Toples 350gr", price: 55000 },
-      { label: "Toples 500gr", price: 95000 }
+      { label: "Toples 350gr", price: 55000 }
     ]
   },
   {
@@ -184,10 +178,9 @@ const PRODUCTS = [
     theme: "theme-butter",
     iconKey: "nastar",
     image: "assets/products/thumbprint-strawberry.jpg",
-    description: "Kue kering mentega renyah dengan lelehan selai strawberry manis-segar di tengahnya. Sangat cantik di toples!",
+    description: "Kue kering mentega renyah dengan lelehan selai strawberry manis-segar di tengahnya. Sangat cantik di toples tabung tutup rose gold 350gr.",
     sizes: [
-      { label: "Toples 350gr", price: 60000 },
-      { label: "Toples 500gr", price: 100000 }
+      { label: "Toples 350gr", price: 60000 }
     ]
   },
   {
@@ -200,10 +193,9 @@ const PRODUCTS = [
     theme: "theme-caramel",
     iconKey: "chocoKukis",
     image: "assets/products/thumbprint-cokelat.jpg",
-    description: "Kukis renyah dengan isian cokelat lumer tebal di tengah yang memanjakan lidah pecinta cokelat sejati.",
+    description: "Kukis renyah dengan isian cokelat lumer tebal di tengah yang memanjakan lidah. Toples tabung tutup rose gold 350gr.",
     sizes: [
-      { label: "Toples 350gr", price: 60000 },
-      { label: "Toples 500gr", price: 100000 }
+      { label: "Toples 350gr", price: 60000 }
     ]
   },
   {
@@ -263,45 +255,45 @@ const HAMPERS = [
   {
     id: "hampers-silaturahmi",
     name: "Hampers Manis Silaturahmi",
-    subtitle: "Bingkisan cantik berisi 2 toples kue kering pilihan Nabje Kukis.",
+    subtitle: "Bingkisan cantik berisi 2 toples tabung kue kering pilihan Nabje Kukis.",
     icon: "🎀",
     image: "assets/products/hampers-box.jpg",
     featured: false,
     ribbon: "Favorit",
     price: 135000,
     contents: [
-      "2 Toples Kue Kering Pilihan (Ukuran 350gr)",
-      "Kemasan Box Eksklusif Nabje Kukis",
+      "2 Toples Tabung Kue Kering Pilihan (Ukuran 350gr)",
+      "Tutup Alumunium Rose Gold Eksklusif",
       "Pita Satin & Kartu Ucapan Personal"
     ]
   },
   {
     id: "hampers-keluarga",
     name: "Hampers Spesial Lebaran",
-    subtitle: "Paket paling lengkap yang memadukan kue kering ukuran 500gr & jajanan manis.",
+    subtitle: "Paket lengkap yang memadukan 2 toples tabung kue kering & jajanan tradisional manis.",
     icon: "🎁",
     image: "assets/products/hampers-box.jpg",
     featured: true,
     ribbon: "Paling Diminati",
-    price: 245000,
+    price: 215000,
     contents: [
-      "2 Toples Kue Kering Premium (Ukuran 500gr Full)",
+      "2 Toples Tabung Kue Kering Premium (Ukuran 350gr)",
       "1 Kemasan Dodol Legit / Wajik Ketan Pilihan",
       "Hardbox Eksklusif + Pita Karamel & Kartu Ucapan"
     ]
   },
   {
     id: "hampers-toples",
-    name: "Paket Duo Toples Nabje",
-    subtitle: "Pilihan 2 toples ukuran 350gr/500gr full padat dalam kemasan bingkisan rapi.",
+    name: "Paket Duo Toples Rose Gold",
+    subtitle: "Pilihan 2 toples tabung 350gr tutup rose gold dalam kemasan bingkisan rapi.",
     icon: "🍪",
     image: "assets/products/toples-nabje.jpg",
     featured: false,
-    ribbon: "Kemasan Rapi",
+    ribbon: "Kemasan Baru",
     price: 130000,
     contents: [
-      "2 Toples Kue Kering Bebas Pilih",
-      "Bentuk toples flat tidak cekung (isi full padat)",
+      "2 Toples Tabung 350gr Bebas Pilih Varian",
+      "Toples Bening Silinder + Tutup Ulir Rose Gold",
       "Pita Karamel + Kartu Ucapan Silaturahmi"
     ]
   }
@@ -399,7 +391,7 @@ function renderProducts() {
             <p class="product-desc">${product.description}</p>
 
             <div class="size-selector-group">
-              <span class="size-label">Pilih Ukuran / Kemasan:</span>
+              <span class="size-label">${product.sizes.length > 1 ? "Pilih Ukuran / Kemasan:" : "Kemasan:"}</span>
               <div class="size-options">
                 ${sizeButtonsHtml}
               </div>
