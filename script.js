@@ -45,7 +45,7 @@ const COOKIE_PRODUCTS = [
     badge: "Favorit Cokelat",
     price: 80000,
     size: "Toples Tabung 600ml",
-    image: "assets/products/thumbprint-cokelat.jpg",
+    image: "assets/products/thumbprint-choco.jpg",
     desc: "Kukis renyah dengan isian cokelat lumer tebal di tengah yang memanjakan lidah para pecinta cokelat."
   },
   {
@@ -55,7 +55,7 @@ const COOKIE_PRODUCTS = [
     badge: "Renyah Gurih",
     price: 75000,
     size: "Toples Tabung 600ml",
-    image: "assets/products/semprit-cokelat.jpg",
+    image: "assets/products/choco-almond.jpg",
     desc: "Paduan cokelat mantap dengan taburan kacang almond renyah berkualitas tinggi di setiap gigitan."
   },
   {
@@ -65,7 +65,7 @@ const COOKIE_PRODUCTS = [
     badge: "Lumer di Lidah",
     price: 75000,
     size: "Toples Tabung 600ml",
-    image: "assets/products/kastengel-keju.jpg",
+    image: "assets/products/sagu-keju.jpg",
     desc: "Tekstur renyah lembut yang langsung lumer di lidah berpadu gurihnya keju dan santan segar."
   },
   {
